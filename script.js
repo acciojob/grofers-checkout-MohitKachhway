@@ -5,6 +5,7 @@ document.body.appendChild(getSumBtn);
 let table = document.querySelectorAll("table")[0];
 let totalRow = document.createElement("tr");
 let totalCell = document.createElement("td");
+totalCell.id="ans";
 totalRow.appendChild(totalCell);
 table.appendChild(totalRow);
 
